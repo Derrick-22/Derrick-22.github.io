@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ouimet Country Catering</title>
+<meta charset="utf-8">
+<style>
+
+
+body { margin: 0;
+	   padding: 0;
+	   background-image: url('salad.jpg');
+	   background-repeat: no-repeat;}
+
+.logo img { position: absolute;
+			margin-left: 10px; }
+			
+nav { background-image: linear-gradient(to bottom right, #008c17, #008C5D);
+	  height: 50px; 
+}
+
+nav ul { margin-top: 0px;
+		 list-style-type: none;
+		 text-align: center;
+		 font-size: 1.5em;
+}
+
+nav li { display: inline;
+}
+
+nav a { text-decoration: none; padding-top: 10px;
+ padding-left: 10px; padding-right: 10px;
+ color: #000000;}
+
+nav a:hover { background: #008C5D;
+			 transition: 0.5s;
+			 }
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: center;
+  padding: 20px;
+  height: 900px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70em;
+  font-size = 19px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+  
+fieldset { float: left; width: 40%; margin-left: 150px; 
+		 display: inline-block; box-sizing: border-box; }
+
+fieldset input { width 80%; }
+
+label { float: left; width: 200px; }
+
+.wrapper #breaker { clear: both; }
+
+</style>
+</head>
+<body>
+<div class ="logo"><img src ="Logo1.1.png"></a>
+</div>
+
+<nav>
+	<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="lmenu.html">Lunch Menu</a></li>
+  <li><a href="dmenu.html">Dinner Menu</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+
+
+<div class="row">
+  <div class="column" style="background-color:#FFFFFF;">
+    <h2><center>Lunch menu</center></h2>
+    <p>
+	<center>$14.00 Per Plate
+	</p> 
+	<div class="wrapper">
+<fieldset style="width:300px"><legend>Choose One Soup</legend>
+<br>
+<label for="BN">&nbsp;&nbsp;&nbsp;Beef Noodle </label>
+<input type="radio" name="main" ><br>
+<label for="VB">&nbsp;&nbsp;&nbsp;Beef Vegetable</label>
+<input type="radio" name="main" ><br>
+<label for="CB">&nbsp;&nbsp;&nbsp;Cream of Broccoli</label>
+<input type="radio" name="main"><br>
+<label for="CN">&nbsp;&nbsp;&nbsp;Chicken Noodle </label>
+<input type="radio" name="main"><br>
+<label for="CR">&nbsp;&nbsp;&nbsp;Chicken Rice </label>
+<input type="radio" name="main"><br>
+<label for="IW">&nbsp;&nbsp;&nbsp;Italian Wedding</label>
+<input type="radio" name="main"><br>
+<label for="TM">&nbsp;&nbsp;&nbsp;Tomato Macaroni </label>
+<input type="radio" name="main" ><br>
+<label for="VEG">&nbsp;&nbsp;&nbsp;Vegetable</label>
+<input type="radio" name="main"><br>
+</fieldset>
+
+<fieldset style="width:300px"><legend>Choose Two Sandwiches</legend>
+<br> 
+<label for="BGC">&nbsp;&nbsp;&nbsp;Bacon Grilled Cheese </label>
+<input type="checkbox" id="side: " name="side"><br>
+<label for="CS">&nbsp;&nbsp;&nbsp;Chicken Salad </label>
+<input type="checkbox" id="oc: " name="side"><br>
+<label for="ES">&nbsp;&nbsp;&nbsp;Egg Salad</label>
+<input type="checkbox" id="tp: " name="side"><br>
+<label for="HC">&nbsp;&nbsp;&nbsp;Ham & Chedder</label>
+<input type="checkbox" id="side: " name="side"><br>
+<label for="PS">&nbsp;&nbsp;&nbsp;Pastrami & Swiss </label>
+<input type="checkbox" id="side: " name="side"><br>
+<label for="RB">&nbsp;&nbsp;&nbsp;Roast Beef </label>
+<input type="checkbox" id="side: " name="side"><br>
+<label for="SC">&nbsp;&nbsp;&nbsp;Salami & Cheese </label>
+<input type="checkbox" id="side: " name="side"><br>
+<label for="TRK">&nbsp;&nbsp;&nbsp;Turkey </label>
+<input type="checkbox" id="side: " name="side"><br>
+</fieldset>
+
+<fieldset style="width:300px"><legend>Choose One Desert</legend>
+<br>
+<label for="AC">&nbsp;&nbsp;&nbsp;Apple Crisp </label>
+<input type="radio" name="veggie" ><br>
+<label for="BCC">&nbsp;&nbsp;&nbsp;Blueberry Cheesecake </label>
+<input type="radio" name="veggie"><br>
+<label for="BT">&nbsp;&nbsp;&nbsp;Butter Tarts </label>
+<input type="radio" name="veggie"><br>
+<label for="CC">&nbsp;&nbsp;&nbsp;Cherry Cheesecake</label>
+<input type="radio" name="veggie" ><br>
+<label for="CHC">&nbsp;&nbsp;&nbsp;Chocolate Cake</label>
+<input type="radio" name="veggie" ><br>
+<label for="CCP">&nbsp;&nbsp;&nbsp;Coconut Cream Pie</label>
+<input type="radio" name="veggie"><br>
+<label for="LS">&nbsp;&nbsp;&nbsp;Lemon Squares</label>
+<input type="radio" name="main"><br>
+<label for="VC">&nbsp;&nbsp;&nbsp;Vanilla Cake</label>
+<input type="radio" name="main"><br>
+</fieldset>
+
+   <fieldset style="width:300px"><legend>Contact Information</legend>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;First Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname" id="fname"><br>
+<br>
+&nbsp;&nbsp;&nbsp;Last Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname" id="lname"><br>
+<br>
+&nbsp;&nbsp;&nbsp;Phone Number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" name="phone" id="phone" value="555-555-5555" maxlength="15"><br>
+<br>
+&nbsp;&nbsp;&nbsp;Email: Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="mail" id="mail" maxlength="30"><br>
+<br>
+&nbsp;&nbsp;&nbsp;Event Date: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="thedate" id="thedate">
+<br>
+<br>
+&nbsp;People Attending: &nbsp;&nbsp;&nbsp;<input type="number" name="attend" id="attend"><br>
+<br>
+<br>
+<center>
+<a href="lconfirm.html">
+<input type="submit" value="Confirm Order">
+</a>
+<center>
+</fieldset>
+ 
+   </div>
+  </div>
+</div>
+</body>
+</html>
